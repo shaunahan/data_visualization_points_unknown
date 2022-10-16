@@ -1,0 +1,47 @@
+<html>
+
+<head>
+    <meta charset='utf-8' />
+    <title>Subway Usage During the Covid-19 Outbreak</title>
+    <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+    <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v1.5.0/mapbox-gl.js'></script>
+    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v1.5.0/mapbox-gl.css' rel='stylesheet' />
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <nav id="menu"></nav>
+    <div id='map'></div>
+    <div id='title' class="title">
+        <h1> Geographical Distribution of NYC Subway Usage and Household Income </h1>
+        <p>This map documents the distribution of ridership by subway station between March 6 and March 20th 2020, as
+            measured through
+            turnstile usage. To contextualize the subway usage, an additional layer of Median Household Income has been
+            added.
+            The original turnstile data is provided by the New York City Metro Transit Authority, and geocoded by the
+            Points Unknown class.
+            The household income data is provided by the U.S. Census Bureau. </p>
+        <hr>
+        <div id="turnstile-legend" class="legend2">
+            <h4>Drop in Ridership</h4>
+            <p><em>Click on stations for detailed turnstile usage</em></p>
+            <div><span style="background-color: #fef0d3"></span>&#8594;<span
+                    style="background-color: #ff4400; height:20px; width:20px"></span>
+                < 50% decrease to> 90% decrease
+            </div>
+        </div>
+        <div id="income-legend" class="legend">
+            <h4>Median Household Income</h4>
+            <div><span style="background-color: #2D72B8"></span>$150,000 +</div>
+            <div><span style="background-color: #4A92DA"></span>$100,000 - $150,000</div>
+            <div><span style="background-color: #7EB6EE"></span>$75,000 - $100,000</div>
+            <div><span style="background-color: #B1D5F9"></span>$50,000 - $75,000</div>
+            <div><span style="background-color: #DFDDF9"></span>$20,000 - $50,000</div>
+            <div><span style="background-color: #ffffff"></span>Less than $20,000</div>
+        </div>
+    </div>
+
+    <script type='text/javascript' src="map.js"></script>
+</body>
+
+</html>

@@ -1,6 +1,6 @@
 # Mapping the 2020 US presidential elections
 
-### Coursework for Data Visualization class Points Unknown - GSAPP Spring 2022
+### Coursework for Points Unknown - GSAPP Spring 2022
 
 * [Data](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/VOQCHQ)
 * [Cartographic Boundary Files](https://www.census.gov/geographies/mapping-files/time-series/geo/cartographic-boundary.html)
